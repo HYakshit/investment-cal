@@ -1,7 +1,7 @@
 export default function Input({id,value,onChange}) {
   return (
     <>
-      <div className="form-floating mb-3">
+      <div className="form-floating  mb-3">
         {/* <span className="input-group-text" id="basic-addon1">@</span> */}
         <input
           type="number"
@@ -14,7 +14,7 @@ export default function Input({id,value,onChange}) {
           aria-describedby="basic-addon1"
           required
         ></input>
-        <label for={id}>Enter {id}</label>
+        <label htmlFor={id}>Enter {id}</label>
       </div>
     </>
   );

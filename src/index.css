@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&family=Roboto+Condensed:wght@400;700&display=swap");
-
+@import "tailwindcss";
 * {
   box-sizing: border-box;
 }
@@ -15,8 +15,12 @@ body {
 }
 
 .header {
+  display: flex;
+  justify-content: center;
   text-align: center;
+  align-items: center;
   margin: 3rem auto;
+  flex-direction: column;
 }
 
 .header img {
@@ -62,16 +66,15 @@ body {
   color: #c2e9e0;
   font-size: 1rem;
 }
-.table th{
- text-transform: capitalize;
- background-color: #00a76d;
+.table th {
+  text-transform: capitalize;
+  background-color: #00a76d;
 }
 .result {
-  
 }
 .result th,
 .result td {
-  margin:0px 20px;
+  margin: 0px 20px;
 }
 .result thead {
   font-size: 0.7rem;
